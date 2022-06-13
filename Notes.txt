@@ -1,0 +1,14 @@
+What you should know:
+    - Data Structures
+    - Loops
+    - Functions
+    - DOM
+    - High Order Array Methods - forEach, map, filter, reduce
+    - Arrow Functions
+    - Async Programming & Fetch API
+    - NPM (Node Package Manager)
+
+    + Components
+    + Props
+    + State
+    + Events
