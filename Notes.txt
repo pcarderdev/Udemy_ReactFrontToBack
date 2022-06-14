@@ -12,3 +12,6 @@ What you should know:
     + Props
     + State
     + Events
+
+Class is old way of using Components
+Function is new way
