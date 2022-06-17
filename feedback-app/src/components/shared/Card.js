@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import React from 'react'
 
 function Card({ children, reverse }) {
 //   return (

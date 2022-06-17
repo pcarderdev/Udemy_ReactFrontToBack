@@ -1,12 +1,10 @@
-import Card from "./shared/Card";
-import PropTypes from 'prop-types';
+import Card from './shared/Card'
+import PropTypes from 'prop-types'
 import { FaTimes } from 'react-icons/fa'
+import React from 'react'
 
 function FeedbackItem({item, handleDelete}) {
 
-    const handleClick = (id) => {
-        console.log(id);
-    }
     return (
         <Card>
             <div className="num-display">{item.rating}</div>
