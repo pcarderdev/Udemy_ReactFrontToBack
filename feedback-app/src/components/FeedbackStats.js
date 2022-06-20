@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
 function FeedbackStats({ feedback }) {
 
     //Calculate ratings avg
