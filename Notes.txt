@@ -15,3 +15,26 @@ What you should know:
 
 Class is old way of using Components
 Function is new way
+
+Context needs to be wrapped in a Provider
+
+FULL STACK APPLICATION OVERVIEW
+
+Client             -> HTTP Request Message                Server
+(Web Browser)      <- HTTP Response Message               (Web Server)
+
+- There is some kind of backend API (any language)
+- The API has routes that we can access from the client in order to CRUD
+- Data is brought into our state and used in the React app
+
+GET - retrieves data from the Server
+POST - submit data to the Server
+PUT/PATCH - update data already on the Server
+DELETE - delete data from the Server
+
+HTTP Status Codes
+1xx: Informational - Request received/processing
+2xx: Success - Successfully received
+3xx: Redirect - Further action must be taken/Redirect
+4xx: Client error - request does not have what it needs
+5xx: Server error - server failed to fulfill a valid request
