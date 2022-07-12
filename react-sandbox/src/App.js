@@ -1,10 +1,10 @@
 import React from 'react'
-import UseRefExample1 from './components/UseRefExample1'
+import CustomHookExample2 from './components/CustomHookExample2'
 
 function App() {
   return (
     <div className="container mt-5">
-        <UseRefExample1 />
+        <CustomHookExample2 />
     </div>
   )
 }
