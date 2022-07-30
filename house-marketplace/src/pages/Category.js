@@ -48,6 +48,7 @@ function Category() {
 
         fetchListings()
     }, [params.categoryName])
+    console.log(params.categoryName)
 
     return (
         <div className="category">

@@ -31,6 +31,7 @@ function Offers() {
                 const querySnap = await getDocs(q)
 
                 const listings = []
+                
                 querySnap.forEach((doc) => {
                     return listings.push({
                         id: doc.id,
